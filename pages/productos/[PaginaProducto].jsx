@@ -4,7 +4,7 @@ import { firebaseContext } from "../../firebase/index";
 import Error404 from "../../components/Layout/Error404";
 import Layout from "../../components/Layout/Layout";
 import styled from "@emotion/styled";
-import formatDistanceToNow from "date-fns/formatdistanceToNow";
+import {formatDistanceToNow} from "date-fns";
 import { es } from "date-fns/locale";
 import {
   CampoInputs,
