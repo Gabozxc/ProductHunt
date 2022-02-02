@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import formatDistanceToNow from "date-fns/formatdistanceToNow";
+import {formatDistanceToNow} from "date-fns";
 import { es } from "date-fns/locale";
 import Link from 'next/link'
 

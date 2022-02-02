@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Header from "./Header";
-
 import { Global, css } from "@emotion/react";
 
 const Layout = (props) => {
