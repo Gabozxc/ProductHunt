@@ -148,7 +148,7 @@ const NuevoProducto = () => {
                 <ParrafoError>{errores.empresa}</ParrafoError>
               )}
 
-              <CampoInputs>
+              <CampoInputs className="imagen-input">
                 <label htmlFor="imagen">Imagen</label>
                 <FileUploader
                   accept="image/*"
@@ -160,6 +160,14 @@ const NuevoProducto = () => {
                   onUploadError={handleUploadError}
                   onUploadSuccess={handleUploadSuccess}
                   onProgress={handleProgress}
+                  style={{display: 'none'}}
+                />
+
+                <input
+                  type="button"
+                  value="Buscar..."
+                  style={{cursor: 'pointer'}}
+                  onClick={() => document.getElementById('imagen').click()}
                 />
               </CampoInputs>
               {subiendo ? <Loading /> : null}

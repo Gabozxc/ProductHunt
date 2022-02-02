@@ -80,3 +80,11 @@
     margin-bottom: 20px;
   }
 }
+
+/*Nuevo producto*/
+
+@media (max-width:500px){
+  .css-1sehh4d fieldset {
+    border-color:transparent;
+  }
+}
